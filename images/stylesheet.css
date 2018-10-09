@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+       #content {
+            width: 940px;
+            padding: 10px;
+            margin: 0 auto;
+        }
+            #content h1 { color: #333; line-height: 1em; }
+            
+            ul#nav { padding-left: 0; list-style: none; width: 100%; margin-bottom: 40px; }
+            ul#nav:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+            
+                #content ul#nav li { float: left; width: 20%; text-align: center; }
+                #content ul#nav a { 
+                        display: block; 
+                        background: #000;
+                        color: #FFF; 
+                        font-weight: bold; 
+                        padding: 10px; 
+                        border-right: 1px solid #FFF;
+                }
+                #content ul#nav a:hover { background: #333; }
+
+        .open {
+            display: none;
+            float: left;
+            width: 40px;
+            height: 30px;
+            margin-right: 10px;
+            background: url(menu.png) center center no-repeat #333;
+            -moz-border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -border-radius: 8px;
+            box-shadow: inset 0 0 3px #000;
+            text-indent: -999999px;
+            border: 0;
+        }
+
+#wrapper 
+{
+width: 960px;
+margin:auto;
+}
+
+
+body 
+{
+min-height: 100%;
+background:url(pattern.png);
+}
+
+a:link 
+{
+color:#666;
+text-decoration:none;
+text-decoration:blink;
+}
+ 
+a:hover 
+{
+color:#999;
+font-weight:bold;
+text-decoration:none;
+}
+ 
+a:visited 
+{
+text-decoration:none;
+}
+
+
+/*-----------Purple Box---------*/
+.foot 
+{
+width:50.46em;
+opacity:0.7;
+height:1em;
+margin-left: 4.8em; 
+margin-right: auto;
+position:relative;
+margin-top:-1em;
+z-index:5
+} 
+
+.foot1 
+{
+width:50.49em;
+opacity:0.7;
+height:1em;
+margin-left: 4.8em; 
+margin-right: auto;
+position:relative;
+margin-top:0.00em;
+z-index:5;
+border-bottom-right-radius:0.5em;
+border-bottom-left-radius:0.5em;
+
+}
+
+
+
+/*-----------Hello my name is---------*/
+.welcome 
+{
+width:807px;
+opacity:0.7;
+height:3em;
+margin-left: 4.8em; 
+margin-right: auto;
+position:relative;
+margin-top:4em;
+border-top-left-radius:2em;
+border-top-right-radius:2em;
+
+}
+
+
+.homebutton {
+width:1.5em;
+height:1.5em;
+opacity:1;
+margin-left:4.8em;
+position:relative;
+margin-top:0.5em;
+}
+
+/*-----------Picture of Me---------*/
+.logotipas
+{
+width:807px;
+height:50px;
+opacity:1;
+background:url(images/logosulinijom.png);
+margin-left: 4.9em; 
+margin-right: 0em;
+position:relative;
+margin-top:2em;
+z-index:5;
+display:inline-block;
+}
+
+.logotipas span {
+ display:none;
+}
+.logotipas:hover {
+ background:url(images/logosulinijomhover.png);
+ background-repeat: no-repeat;
+ 
+}
+
+.profilepicture 
+{
+width:38%;
+height:100%;
+opacity:1;
+margin-left: 8em; 
+margin-right: 0em;
+position:relative;
+margin-top:-9.6em;
+z-index:5;
+}
+
+.intership
+{
+opacity:1;
+margin-left: 32.9em; 
+margin-right: 0em;
+position:relative;
+margin-top:4.0em;
+z-index:7;
+}
+
+/*-----------Index Page Box---------*/
+.box 
+{
+background:url(images/paper_3.gif);
+opacity: 0.7;
+width:807px;
+height:15em;
+border-width:0px;
+margin-left: auto; 
+margin-right: auto; 
+margin-top:-5px;
+position:relative;
+z-index:5;
+
+}
+
+/*-----------Fancy Menu Box Styling---------*/
+
+a{
+	color:#000;
+	text-decoration:none;
+}
+.clr{
+	clear:both;
+}
+.container {
+	width:100%;
+	position:relative;
+	z-index:100;
+    margin-top:-65px;
+	margin-left:76px;
+}
+.content {
+	width:1000px;
+	margin:0 auto;
+}
+h1{
+	margin:10px 0 0px 20px;
+	font-size:80px;
+	color:#000;
+	text-shadow:1px 1px 1px #fff;
+	font-family: 'Wire One', arial, serif; 
+}
+h1 span{
+	font-size:22px;
+	text-transform:uppercase;
+}
+.more ul{
+	text-transform:uppercase;
+	font-size:13px;
+	padding:50px 0px 30px 20px;
+	height:30px;
+	clear:both;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	width:830px;
+	margin:0 auto;
+}
+.more ul li{
+	float:left;
+	margin:0px 2px;
+}
+.more ul li.selected a,
+.more ul li.selected a:hover{
+	background:#000;
+	color:#fff;
+	text-shadow:none;
+}
+.more ul li a{
+	text-shadow:1px 1px 1px #fff;
+	color:#555;
+	background:#f7f7f7;
+	padding:3px 6px;
+	-moz-box-shadow:1px 1px 2px #aaa;
+	-webkit-box-shadow:1px 1px 2px #aaa;
+	box-shadow:1px 1px 2px #aaa;
+}
+.more ul li a:hover{
+	background:#000;
+	color:#fff;
+	text-shadow:none;
+}
+
+
+#slidebox {
+	margin-top:30px;
+	width:900px;
+	height:500px;
+	position:relative;
+	
+}
+
+

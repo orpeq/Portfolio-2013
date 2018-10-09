@@ -1,0 +1,31 @@
+
+        
+p{
+font-family:"Myriad Pro";
+font-size:20px;
+text-align:left;
+margin-top:0px;
+opacity:1;
+
+}
+
+h2 { 
+color:#FFF;
+font-size:35px;
+font-family:"Myriad Pro";
+text-align:center;
+opacity:0.7;
+ }
+
+.manicon {
+margin-left:13px;
+margin-top:7px;
+border-radius: 15px;
+}
+
+.apiemane {
+	margin-top:8px;
+	z-index:-100000;
+	opacity:0.8;
+
+}

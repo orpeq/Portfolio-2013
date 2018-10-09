@@ -1,0 +1,39 @@
+
+body {
+font: 14px/18px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #FFF;
+}
+        
+p{
+font-size:17px;
+font-family:"Myriad Pro";
+text-align:left;
+margin-top:-5px;
+}
+
+h2 { 
+color:#FFF;
+font-size:40px;
+font-family:Piximisa;
+text-align:center; }
+
+.manicon {
+margin-left:60px;
+margin-top:5px;
+}
+
+
+.location {
+margin-left:60px;
+margin-top:20px;
+}
+		
+.storas {
+color: #FFF;
+background-color:#FFF;
+height: 5px;
+}
+.juodas {
+	color:#FFF;
+	font-family:"Myriad Pro";
+}
